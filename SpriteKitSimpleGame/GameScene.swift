@@ -9,7 +9,7 @@
 import AVFoundation
 var endCount:Int = 0
 var backgroundMusicPlayer: AVAudioPlayer!
-
+//var backgroundColor:!
 func playBackgroundMusic(filename: String) {
     let url = NSBundle.mainBundle().URLForResource(
         filename, withExtension: nil)
